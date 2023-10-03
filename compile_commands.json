@@ -1,0 +1,12 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-std=gnu++2b",
+      "main.cpp"
+    ],
+    "directory": "/home/koda/CS219proj1",
+    "file": "/home/koda/CS219proj1/main.cpp"
+  }
+]
