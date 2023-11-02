@@ -1,5 +1,6 @@
 # CS219proj1
 project one cs219 add smthn
+now added project 2 as well
 gonna add some stuff i guess
 
 # how you use this shit shovelware
@@ -15,14 +16,18 @@ the arguments for assembler are:
 go to town its GNU3 licensed it's just addition for now
 > [!WARNING]
 > Written at 3am transpiled by luaJIT from typescript
+> Now Supports ASM decode!
 
 > [!NOTE]
 > Compatible now with TempleOS 
+> Compatible with ANDROID-RISCV-BETA-0003
 
 # planned features
-subtraction with underflow detection
+subtraction with underflow detection - added
 sanity for the programmer
-module-itation
+module-itation - added
+fix a bug related to using XOR on an invalid key
+maybe check N and Z flags eventually
 
 ```
 $$$$$$$\                            $$\      $$\                                  $$$$$$\             $$$$$$\   $$$$$$\                     $$\ 
@@ -37,5 +42,5 @@ $$$$$$$  |\$$$$$$  |\$$$$$$$ |      $$ | \_/ $$ |\$$$$$$$\       \$$$$$$$ |     
                     \$$$$$$  |                                                                                                                  
                      \______/                                                                                                                   
 ```
-
+please i haven't slept in 7 days
 
