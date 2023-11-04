@@ -9,12 +9,12 @@ and detect overflow conditions
 #include <iostream>
 #include <fstream>
 #include <sstream>
-#include <unordered_map> // fuck outta here with that binary tree GARBAGE. TRASH. WHERES YOUR HASH FUNCTION NOW?!?!?
+#include <unordered_map> // based library
 
 // yeah so i used a map with strings as a meme for quick speedups :)
 
-#define MAP_INSTRUCTION(instruction) { #instruction, Instruction::instruction }
-enum Instruction {
+#define MAP_INSTRUCTION(instruction) { #instruction, Instruction::instruction } //baby class
+enum Instruction { //we can use an enum to map instructions more modularly
 	INVALID = -1,
 
 	ADD,
@@ -37,7 +37,7 @@ enum Instruction {
 	ORRS
 };
 
-static std::unordered_map<std::string, Instruction> instruction_map = {
+static std::unordered_map<std::string, Instruction> instruction_map = { //defining params for said baby class
 	MAP_INSTRUCTION(ADD),
 	MAP_INSTRUCTION(SUB),
 
@@ -63,11 +63,11 @@ static std::unordered_map<std::string, Instruction> instruction_map = {
 	MAP_INSTRUCTION(ORRS)
 };
 
-int main(int argc, char* argv[]){
+int main(int argc, char* argv[]){  //main
 	if(argc > 1)
 	{
 		std::ifstream stream(argv[1]);
-		if(!stream.good()) { std::cout << "Invalid file, fuckoff" << std::endl; return 1; };
+		if(!stream.good()) { std::cout << "Invalid file inputed" << std::endl; return 1; }; //good file or not
 
 		std::string current_line = "";
 		while(std::getline(stream, current_line)) {
@@ -76,7 +76,7 @@ int main(int argc, char* argv[]){
 
 			std::stringstream string_stream(current_line);
 			std::string current_instruction_mneumonic = "";
-			string_stream >> current_instruction_mneumonic >> std::hex >> op1 >> std::hex >> op2;
+			string_stream >> current_instruction_mneumonic >> std::hex >> op1 >> std::hex >> op2; //fancy parcing
 
 			Instruction current_instruction = Instruction::INVALID;
 			if(instruction_map.count(current_instruction_mneumonic) != 0)
