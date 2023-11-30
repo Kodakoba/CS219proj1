@@ -1,6 +1,7 @@
 # CS219proj1
 project one cs219 add smthn
 now added project 2 as well
+even added project 3
 gonna add some stuff i guess
 
 # how you use this shit shovelware
@@ -16,18 +17,25 @@ the arguments for assembler are:
 go to town its GNU3 licensed it's just addition for now
 > [!WARNING]
 > Written at 3am transpiled by luaJIT from typescript
+> [!WARNING]
 > Now Supports ASM decode!
+> [!WARNING]
+> Rust Support coming soon!
 
 > [!NOTE]
 > Compatible now with TempleOS 
+> [!NOTE]
 > Compatible with ANDROID-RISCV-BETA-0003
+> [!NOTE]
+> Compatible with MacOSX Snow Leopard!
 
 # planned features
 subtraction with underflow detection - added
 sanity for the programmer
 module-itation - added
-fix a bug related to using XOR on an invalid key
-maybe check N and Z flags eventually
+fix a bug related to using XOR on an invalid key - fixed badly
+maybe check N and Z flags eventually -added
+make it so V doesn't make me wanna ronnie myself - never happening
 
 ```
 $$$$$$$\                            $$\      $$\                                  $$$$$$\             $$$$$$\   $$$$$$\                     $$\ 
@@ -42,5 +50,5 @@ $$$$$$$  |\$$$$$$  |\$$$$$$$ |      $$ | \_/ $$ |\$$$$$$$\       \$$$$$$$ |     
                     \$$$$$$  |                                                                                                                  
                      \______/                                                                                                                   
 ```
-please i haven't slept in 7 days
-
+please i haven't slept in **-2147483647** days
+# the blutuf deuaice has connectedey sucshessfulay
