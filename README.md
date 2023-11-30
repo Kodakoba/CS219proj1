@@ -17,15 +17,19 @@ the arguments for assembler are:
 go to town its GNU3 licensed it's just addition for now
 > [!WARNING]
 > Written at 3am transpiled by luaJIT from typescript
+
 > [!WARNING]
 > Now Supports ASM decode!
+
 > [!WARNING]
 > Rust Support coming soon!
 
 > [!NOTE]
 > Compatible now with TempleOS 
+
 > [!NOTE]
 > Compatible with ANDROID-RISCV-BETA-0003
+
 > [!NOTE]
 > Compatible with MacOSX Snow Leopard!
 
